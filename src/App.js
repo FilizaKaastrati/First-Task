@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import DomainList from "./components/domain/DomainList";
+import DomainData from "./components/domain/DomainData";
+import CardList from "./components/cards/CardList";
+import CardData from "./components/cards/CardData";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<div>
+      <DomainList lists={DomainData} />
+      <CardList list={CardData} />
     </div>
   );
 }
