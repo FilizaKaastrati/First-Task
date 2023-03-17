@@ -8,11 +8,11 @@ function DomainItem(props) {
       </div>
       <div>
         <div className={classes.td}>
-          <h4>{props.title}</h4>
-        </div>
-        <div>
-          <p>{props.description}</p>
-        </div>
+        <h5 className={classes.title}>{props.title}</h5>
+        <div className={classes.paragraf}>
+          {props.description}
+       </div>
+       </div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ function CardItem(props) {
   return (
     <div className={clasess.cards}>
       <div className={clasess.card}>
-        <div>
+        <div className={clasess.date}> 
         <p>{props.date}</p>
         </div>
         <div className={clasess.imgbtn}>
@@ -16,7 +16,7 @@ function CardItem(props) {
             <span>{props.fullName}</span>
           </div>
         </div>
-        <div>
+        <div className={clasess.p}>
         <p>{props.description}</p>
         </div>
         <div>

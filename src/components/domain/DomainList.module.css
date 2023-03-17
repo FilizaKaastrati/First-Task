@@ -1,6 +1,5 @@
 .container{
     display:flex;
-     padding: 70px;
      justify-content: center;
      flex-wrap: wrap;
      align-self: center;
@@ -9,6 +8,30 @@
      width: 75%;
  
     }
+    @media only screen and (max-width: 900px) {
+        .container{
+             justify-content: space-around;
+             /* flex-wrap: nowrap; */
+             align-self: center;
+             margin-left: auto;
+             margin-right: auto;
+             width:75%;
+             }
+    }
+    @media only screen and (max-width: 768px) {
+        .container{
+                width:90%;
+            }
+    }
+    @media only screen and (max-width: 1920px) {
+        .container{
+                width:70%;
+            }
+    }
+ 
+
+ 
+
   
 
     

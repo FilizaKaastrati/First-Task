@@ -2,8 +2,7 @@ import CardItem from "./CardItem";
 import clasess from "./CardList.module.css"
 function CardList(props) {
   return (
-    <ul>
-      <div className={clasess.container}>
+    <div className={clasess.container}>
         {props.list.map(card => (
           <CardItem
            key={card.id}
@@ -15,7 +14,6 @@ function CardList(props) {
           />
         ))}
       </div>
-    </ul>
   );
 }
 export default CardList;
