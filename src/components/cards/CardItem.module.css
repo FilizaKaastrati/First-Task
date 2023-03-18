@@ -80,7 +80,7 @@ img {
 }
 span {
   font-size: 9px;
-  margin: 7px;
+  margin: 12px;
 }
 .imgFullName {
   display: flex;
@@ -93,13 +93,11 @@ span {
     border-radius: 10px;
     border-color: rgb(223, 223, 223);
     border-width: 1px;
-    /* width: 80%; */
     margin: 10px;
     padding: 20px 20px;
   }
   .cards {
     display: flex;
-    /* width: 60%; */
     margin-left: auto;
     margin-right: auto;
     flex-wrap: wrap;
@@ -117,9 +115,6 @@ span {
     /* width: 90%; */
     margin-left: auto;
     margin-right: auto;
-    /* padding: 20px; */
-    /* margin: 10px;  */
-    /* padding: 30px 30px; */
   }
   .cards {
     display: flex;
@@ -136,8 +131,6 @@ span {
         width: 100%;
     }
 }
-/* @media only screen and (max-width: 1920px) {
-    .cards {
-        width: 29%;
-    }
-} */
+
+
+

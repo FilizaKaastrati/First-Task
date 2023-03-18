@@ -1,3 +1,4 @@
+import { fontSize } from "@mui/system";
 import clasess from "./CardItem.module.css";
 function CardItem(props) {
   
@@ -13,7 +14,7 @@ function CardItem(props) {
         </div>
         <div className={clasess.imgFullName}>
           <img src={props.img} alt={props.img}></img>
-            <span>{props.fullName}</span>
+            <span className={clasess.fullName}>{props.fullName}</span>
           </div>
         </div>
         <div className={clasess.p}>
