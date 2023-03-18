@@ -39,7 +39,7 @@ i {
     display: flex;
     width: 35%;
     padding: 5px;
-    justify-content: start;
+    justify-content: flex-start;
   }
   h5{ 
     align-items: center;
